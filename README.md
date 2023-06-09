@@ -216,15 +216,6 @@ plt.axis("off")
 plt.imshow(img)
 plt.show()
 
-import random
-import tensorflow as tf
-# list_dir=["uninfected","parasitized"]
-# dir_=(random.choice(list_dir))
-# para_img= imread(train_path+
-#                  '/'+dir_+'/'+
-#                  os.listdir(train_path+'/'+dir_)[random.randint(0,100)])
-para_img = imread('Rajeshkannan- uninfected.png')
-plt.imshow(para_img)
 
 
 
